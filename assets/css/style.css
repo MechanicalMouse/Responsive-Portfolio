@@ -217,22 +217,36 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 640px) {
-  logo{
+  #logo{
     display: block;
-    width: auto;
+    width: 100%;
+    height: auto;
   }
 
   nav{
-    width:100%;
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
   }
+  
+  .container{
+    padding-top: 10px;
+  }
+
+  .auth-image{
+    width: 100%;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
-  
+  .auth-image{
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 980px) {
-  #maincontainer{
-    
+  .container{
+
   }
 }

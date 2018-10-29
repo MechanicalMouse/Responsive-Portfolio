@@ -230,7 +230,7 @@ input[type=submit] {
   }
   
   .container{
-    padding-top: 10px;
+    margin-top: -15px;
   }
 
   .auth-image{
@@ -241,7 +241,7 @@ input[type=submit] {
 
 @media only screen and (max-width: 768px) {
   .auth-image{
-    width: 100%;
+    width: 50%;
   }
 }
 
